@@ -1,0 +1,52 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+  background-color: rgb(199, 102, 102);
+}
+
+.contianer{
+  background-color: whitesmoke;
+  width: 50%;
+  padding: 20px;
+  margin: 300px auto;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px;
+  transition: transform 0.3s ease;
+
+}
+p,button{
+  font-size: 1.1rem;
+}
+
+h1{
+  padding: 20px;
+}
+
+button{
+  margin: 20px 20px;
+  padding: 5px;
+  background-color:rgb(93, 70, 143);
+  color: aliceblue;
+  border-radius: 5px;
+}
+
+h1::after{
+  content: ' 🥳';
+}
+h1::before{
+  content: '🥳 ';
+}
+
+.contianer:hover{
+  transform: scale(1.05);
+  background-color: rgb(221, 221, 60);
+}
+button:hover{
+  background-color: rgb(255, 123, 0);
+}
